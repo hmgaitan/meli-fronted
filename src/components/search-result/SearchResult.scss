@@ -1,0 +1,19 @@
+@import '../../scss/colors.scss';
+@import '../../scss/container.scss';
+
+.breadcrumb-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: $gray-dark;
+}
+
+.route-view-container {
+  a {
+    text-decoration: none !important;
+  }
+  a:focus,
+  a:hover,
+  a:visited {
+    color: $black;
+  }
+}

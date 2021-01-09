@@ -1,0 +1,19 @@
+@import '../../../scss/colors.scss';
+
+.icon-chevron-right {
+  background: url('../../../images/chevron-r.png');
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.breadcrumb {
+  display: flex;
+  color: $black;
+  font-size: 14px;
+  .breadcrumb-item {
+    margin-right: 1em;
+  }
+}

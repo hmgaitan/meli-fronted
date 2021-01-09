@@ -1,0 +1,31 @@
+@import "./scss/colors.scss";
+
+body {
+  background-color: $base-color;
+  font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+    Roboto, Arial, sans-serif, sans-serif;
+}
+
+.breadcrumb-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: $gray-dark;
+}
+
+header {
+  height: 56px;
+  display: flex;
+  background-color: $yellow;
+}
+
+.nav-bar {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+@media (max-width: 576px) {
+  .nav-bar {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
